@@ -1,0 +1,29 @@
+{
+  "name": "split-by-comma",
+  "description": "Split strings by comma in a smart way.",
+  "keywords": [
+    "split",
+    "by",
+    "comma",
+    "strings",
+    "in",
+    "a",
+    "smart",
+    "way"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/split-by-comma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/split-by-comma/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/split-by-comma#readme"
+}
