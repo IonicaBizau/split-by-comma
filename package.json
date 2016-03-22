@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/split-by-comma/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/split-by-comma#readme"
+  "homepage": "https://github.com/IonicaBizau/split-by-comma#readme",
+  "dependencies": {
+    "split-by-comma-regex": "^1.0.0"
+  }
 }

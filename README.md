@@ -13,20 +13,23 @@ $ npm i --save split-by-comma
 ```js
 const splitByComma = require("split-by-comma");
 
-console.log(splitByComma());
+console.log(splitByComma("foo,bar, baz"));
+// => [ 'foo', 'bar', 'baz' ]
+
+console.log(splitByComma("1,  2, 3,4"));
+// => [ '1', '2', '3', '4' ]
 ```
 
 ## Documentation
 
-### `splitByComma(a, b)`
+### `splitByComma(input)`
 Split strings by comma in a smart way.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `input`: The input string.
 
 #### Return
-- **Number** Return description.
+- **Array** The splits.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
