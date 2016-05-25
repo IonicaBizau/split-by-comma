@@ -1,14 +1,20 @@
-# split-by-comma [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/split-by-comma.svg)](https://www.npmjs.com/package/split-by-comma) [![Downloads](https://img.shields.io/npm/dt/split-by-comma.svg)](https://www.npmjs.com/package/split-by-comma) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# split-by-comma
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/split-by-comma.svg)](https://www.npmjs.com/package/split-by-comma) [![Downloads](https://img.shields.io/npm/dt/split-by-comma.svg)](https://www.npmjs.com/package/split-by-comma) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Split strings by comma in a smart way.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save split-by-comma
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const splitByComma = require("split-by-comma");
@@ -20,7 +26,8 @@ console.log(splitByComma("1,  2, 3,4"));
 // => [ '1', '2', '3', '4' ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `splitByComma(input)`
 Split strings by comma in a smart way.
@@ -31,13 +38,19 @@ Split strings by comma in a smart way.
 #### Return
 - **Array** The splits.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`cli-sunset`](https://github.com/IonicaBizau/cli-sunset)—A fancy command line tool for knowing the sunset time.
+ - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
